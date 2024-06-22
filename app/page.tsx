@@ -9,7 +9,7 @@ const frameMetadata = getFrameMetadata({
     },
     {
       action: 'tx',
-      label: 'Send Mint Fee',
+      label: 'Send Me Coffee',
       target: `${NEXT_PUBLIC_URL}/api/tx`,
       postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`,
     },
