@@ -18,12 +18,6 @@ const frameMetadata = getFrameMetadata({
       label: 'Mint',
       target: 'https://mint.fun/base/0xdBAA3aBdD9A488D968F316ba5752b5A3A6d056CD',
     },
-    {
-      action: 'tx',
-      label: 'Send Me Coffee',
-      target: `${NEXT_PUBLIC_URL}/api/tx`,
-      postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`,
-    },
   ],
   image: {
     src: `${NEXT_PUBLIC_URL}/nft-1.png`,
