@@ -14,6 +14,11 @@ const frameMetadata = getFrameMetadata({
       postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`,
     },
     {
+      action: 'link',
+      label: 'Mint',
+      target: 'https://mint.fun/base/0xdBAA3aBdD9A488D968F316ba5752b5A3A6d056CD',
+    },
+    {
       action: 'tx',
       label: 'Send Me Coffee',
       target: `${NEXT_PUBLIC_URL}/api/tx`,
