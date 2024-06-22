@@ -49,7 +49,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       image: {
         src: `${NEXT_PUBLIC_URL}/nft-2.gif`,
       },
-      postUrl: `https://superchain.com`,
+      postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
       state: {
         page: state?.page + 1,
         time: new Date().toISOString(),
