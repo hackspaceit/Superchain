@@ -9,9 +9,8 @@ const frameMetadata = getFrameMetadata({
     },
     {
       action: 'tx',
-      label: 'Send Me Coffee',
-      target: `${NEXT_PUBLIC_URL}/api/tx`,
-      postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`,
+      label: 'Learn More',
+      target: `https://app.optimism.io/superchain/`,
     },
     {
       action: 'link',
