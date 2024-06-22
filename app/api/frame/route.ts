@@ -25,7 +25,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
    */
   if (message?.button === 3) {
     return NextResponse.redirect(
-      'https://www.google.com/search?q=cute+dog+pictures&tbm=isch&source=lnms',
+      'https://opensea.io/collection/superchain-building-teh-future',
       { status: 302 },
     );
   }
@@ -38,12 +38,12 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
         },
         {
           action: 'link',
-          label: 'OnchainKit',
-          target: 'https://onchainkit.xyz',
+          label: 'Mint Page',
+          target: 'https://mint.fun/op/0xdBAA3aBdD9A488D968F316ba5752b5A3A6d056CD',
         },
         {
           action: 'post_redirect',
-          label: 'Dog pictures',
+          label: 'Opensea',
         },
       ],
       image: {

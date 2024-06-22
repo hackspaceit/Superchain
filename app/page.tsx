@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   title: 'Superchain - Building the Future',
   description: 'LFG',
   openGraph: {
-    title: 'Bulding the Future',
+    title: 'Building the Future',
     description: 'LFG',
     images: [`${NEXT_PUBLIC_URL}/nft-2.gif`],
   },
