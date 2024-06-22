@@ -9,13 +9,13 @@ const frameMetadata = getFrameMetadata({
     },
     {
       action: 'tx',
-      label: 'Send Base Sepolia',
+      label: 'Send Mint Fee',
       target: `${NEXT_PUBLIC_URL}/api/tx`,
       postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`,
     },
   ],
   image: {
-    src: `${NEXT_PUBLIC_URL}/park-3.png`,
+    src: `${NEXT_PUBLIC_URL}/nft-1.png`,
     aspectRatio: '1:1',
   },
   input: {
@@ -25,10 +25,10 @@ const frameMetadata = getFrameMetadata({
 });
 
 export const metadata: Metadata = {
-  title: 'zizzamia.xyz',
+  title: 'Superchain - Building the Future',
   description: 'LFG',
   openGraph: {
-    title: 'zizzamia.xyz',
+    title: 'Bulding the Future',
     description: 'LFG',
     images: [`${NEXT_PUBLIC_URL}/park-1.png`],
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>zizzamia.xyz</h1>
+      <h1>Superchain NFT</h1>
     </>
   );
 }
