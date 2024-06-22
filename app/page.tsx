@@ -13,6 +13,12 @@ const frameMetadata = getFrameMetadata({
       target: `${NEXT_PUBLIC_URL}/api/tx`,
       postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`,
     },
+    {
+      action: 'tx',
+      label: 'Send Me Coffee',
+      target: `${NEXT_PUBLIC_URL}/api/tx`,
+      postUrl: `${NEXT_PUBLIC_URL}/api/tx-success`,
+    },
   ],
   image: {
     src: `${NEXT_PUBLIC_URL}/nft-1.png`,
