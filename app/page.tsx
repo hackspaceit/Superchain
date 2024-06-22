@@ -8,7 +8,7 @@ const frameMetadata = getFrameMetadata({
       label: 'Next Collections',
     },
     {
-      action: 'tx',
+      action: 'link',
       label: 'Learn More',
       target: `https://app.optimism.io/superchain/`,
     },
