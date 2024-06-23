@@ -29,7 +29,12 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       { status: 302 },
     );
   }
-
+  if (message?.button === 4) {
+    return NextResponse.redirect(
+      'https://opensea.io/collection/superchain-building-teh-future',
+      { status: 302 },
+    );
+  }
   return new NextResponse(
     getFrameHtmlResponse({
       buttons: [
@@ -49,7 +54,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       image: {
         src: `${NEXT_PUBLIC_URL}/nft-2.gif`,
         aspectRatio: '1:1',
-      },
+      }, 
       postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
       state: {
         page: state?.page + 1,
@@ -58,6 +63,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     }),
   );
 }
+
 
 export async function POST(req: NextRequest): Promise<Response> {
   return getResponse(req);
