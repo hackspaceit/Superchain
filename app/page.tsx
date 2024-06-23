@@ -5,11 +5,11 @@ import { NEXT_PUBLIC_URL } from './config';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'Next Collections',
+      label: 'Gallery',
     },
     {
       action: 'link',
-      label: 'Learn More',
+      label: 'Website',
       target: `https://app.optimism.io/superchain/`,
     },
     {
@@ -27,10 +27,10 @@ const frameMetadata = getFrameMetadata({
 });
 
 export const metadata: Metadata = {
-  title: 'Superchain - Building the Future',
+  title: 'The Riso - Risograph NFT Art',
   description: 'LFG',
   openGraph: {
-    title: 'Building the Future',
+    title: 'Risograph NFT Art',
     description: 'LFG',
     images: [`${NEXT_PUBLIC_URL}/galery.png`],
     
