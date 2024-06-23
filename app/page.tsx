@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Risograph NFT Art',
     description: 'LFG',
-    images: [`${NEXT_PUBLIC_URL}/galery.png`],
+    images: [`${NEXT_PUBLIC_URL}/gallery.png`],
     
   },
   other: {
