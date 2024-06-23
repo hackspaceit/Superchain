@@ -9,13 +9,13 @@ const frameMetadata = getFrameMetadata({
     },
     {
       action: 'link',
-      label: 'Website',
-      target: `https://app.optimism.io/superchain/`,
+      label: 'Zora',
+      target: `https://zora.co/collect/base:0xba79ddbf1b5bbe9516bb0000d2630ccd9401039a`,
     },
     {
       action: 'link',
       label: 'Mint',
-      target: 'https://zora.co/collect/base:0xba79ddbf1b5bbe9516bb0000d2630ccd9401039a',
+      target: 'https://zora.co/collect/base:0xba79ddbf1b5bbe9516bb0000d2630ccd9401039a/1',
     },
   ],
   image: {

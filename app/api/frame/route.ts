@@ -40,8 +40,8 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
           target: 'https://zora.co/collect/base:0xba79ddbf1b5bbe9516bb0000d2630ccd9401039a',
         },
         {
-          action: 'post_redirect',
-          label: 'Opensea',
+          action: 'post',
+          label: 'Website',
         },
       ],
       image: {
