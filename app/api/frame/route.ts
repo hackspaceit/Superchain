@@ -29,18 +29,11 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       { status: 302 },
     );
   }
-  if (message?.button === 4) {
-    return NextResponse.redirect(
-      'https://opensea.io/collection/superchain-building-teh-future',
-      { status: 302 },
-    );
-  }
+  
   return new NextResponse(
     getFrameHtmlResponse({
       buttons: [
-        {
-          label: `State: ${state?.page || 0}`,
-        },
+        
         {
           action: 'link',
           label: 'Mint Page',
