@@ -28,11 +28,12 @@ const frameMetadata = getFrameMetadata({
 
 export const metadata: Metadata = {
   title: 'Superchain - Building the Future',
-  description: 'Do you know about superchains? creates an ecosystem containing a group of L2 blockchains that use shared bridging, governance, updates, and communication layers built on top of the OP Stack.',
+  description: 'LFG',
   openGraph: {
     title: 'Building the Future',
     description: 'LFG',
     images: [`${NEXT_PUBLIC_URL}/nft-2.gif`],
+    
   },
   other: {
     ...frameMetadata,
