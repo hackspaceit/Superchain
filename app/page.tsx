@@ -43,7 +43,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>Superchain NFT</h1>
+      <h1>Riso NFT</h1>
     </>
   );
 }
