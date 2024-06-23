@@ -15,7 +15,7 @@ const frameMetadata = getFrameMetadata({
     {
       action: 'link',
       label: 'Mint',
-      target: 'https://mint.fun/base/0xdBAA3aBdD9A488D968F316ba5752b5A3A6d056CD',
+      target: 'https://zora.co/collect/base:0xba79ddbf1b5bbe9516bb0000d2630ccd9401039a',
     },
   ],
   image: {

@@ -25,7 +25,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
    */
   if (message?.button === 3) {
     return NextResponse.redirect(
-      'https://opensea.io/collection/superchain-building-teh-future',
+      'https://opensea.io/collection/the-riso',
       { status: 302 },
     );
   }
@@ -36,8 +36,8 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
         
         {
           action: 'link',
-          label: 'Mint Page',
-          target: 'https://mint.fun/op/0xdBAA3aBdD9A488D968F316ba5752b5A3A6d056CD',
+          label: 'Zora',
+          target: 'https://zora.co/collect/base:0xba79ddbf1b5bbe9516bb0000d2630ccd9401039a',
         },
         {
           action: 'post_redirect',
