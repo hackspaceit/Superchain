@@ -52,8 +52,8 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
         },
       ],
       image: {
-        src: `${NEXT_PUBLIC_URL}/nft-2.gif`,
-        aspectRatio: '1:1',
+        src: `${NEXT_PUBLIC_URL}/galery.png`,
+       
       }, 
       postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
       state: {
